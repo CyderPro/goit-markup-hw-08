@@ -18,9 +18,10 @@
 }
 .modal {
   position: absolute;
-  top: 93px;
+  // top: 93px;
+  top: 50%;
   left: 50%;
-  transform: translate(-50%) scale(1);
+  transform: translate(-50%, -50%) scale(1);
   width: 450px;
   border-radius: 4px;
   background-color: var(--other-title-color);
