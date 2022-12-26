@@ -226,10 +226,7 @@
     align-items: center;
   }
   &.header-mail {
-    //     font-family: 'Roboto';
-    // font-style: normal;
-    // font-weight: 500;
-    //     font-size: 25px;
+    font-size: 25px;
     font-family: "Roboto";
     font-style: normal;
     font-weight: 500;
@@ -252,6 +249,7 @@
       text-align: center;
     }
   }
+
   &.header-tel {
     font-family: "Roboto";
     font-style: normal;
@@ -284,6 +282,16 @@
     color: #2196f3;
   }
 }
+
+// .header-contacts-item {
+//   display: flex;
+//   align-items: center;
+//   @media (min-width: 768px) {
+//     font-weight: 500;
+//     margin-bottom: 10px;
+//     font-size: 12px;
+//   }
+// }
 .contacts__icon {
   display: none;
 
